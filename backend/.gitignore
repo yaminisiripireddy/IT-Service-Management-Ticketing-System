@@ -4,6 +4,15 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Environment files - NEVER push secrets
+.env
+*.env
+backend/.env
+frontend/.env
+
+# ZIP backup/source files
+*.zip
+
 ### STS ###
 .apt_generated
 .classpath
